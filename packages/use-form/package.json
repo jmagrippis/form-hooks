@@ -1,0 +1,20 @@
+{
+  "name": "use-form",
+  "version": "0.0.0",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.modern.module.js",
+  "types": "dist/index.d.ts",
+  "unpkg": "dist/index.umd.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "microbundle watch"
+  },
+  "peerDependencies": {
+    "react": "^16.10.2"
+  },
+  "dependencies": {
+    "use-validation": "^0.0.0"
+  }
+}
